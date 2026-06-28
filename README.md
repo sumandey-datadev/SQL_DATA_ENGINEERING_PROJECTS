@@ -227,6 +227,6 @@ Through this project, I gained hands-on experience with:
 
 This project demonstrates how SQL can be used beyond querying data to solve real business problems.
 
-By analyzing market demand, salary trends, and combining both into a custom Market Value Score, the project identifies the technologies that provide the greatest career value for Data Engineers.
+By analyzing market demand, salary trends, and combining both into a custom Market Value Score,the project identifies the technologies that provide the greatest career value for Data Engineers.
 
 These insights can help professionals prioritize learning based on both employability and earning potential.
