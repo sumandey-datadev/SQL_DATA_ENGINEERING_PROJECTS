@@ -1,3 +1,10 @@
+-- Step 1: DW - Create star schema tables
+
+DROP TABLE IF EXISTS skills_job_dim;
+DROP TABLE IF EXISTS job_postings_fact;
+DROP TABLE IF EXISTS company_dim;
+DROP TABLE IF EXISTS skills_dim;
+
 CREATE TABLE IF NOT EXISTS company_dim(
     company_id  INT PRIMARY KEY,
     name        VARCHAR
@@ -5,7 +12,7 @@ CREATE TABLE IF NOT EXISTS company_dim(
 
 CREATE TABLE IF NOT EXISTS skills_dim(
     skill_id    INT PRIMARY KEY,
-    skill       VARCHAR,
+    skillS       VARCHAR,
     type        VARCHAR
 );
 
